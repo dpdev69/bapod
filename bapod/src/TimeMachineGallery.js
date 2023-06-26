@@ -1,21 +1,19 @@
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-import './TimeMachineGallery.css';
-    import './TimeMachineGallery.css';
-    import React from 'react';
-
-const TimeMachineGallery = () => {
-    return (
-        <div className="TimeMachineGallery">
-            {/* TODO: Implement TimeMachineGallery */}
-        </div>
-    );
-};
-
-export default TimeMachineGallery;
+class TimeMachineGallery extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            images: [],
+            currentIndex: 0
+        };
+    }
+    
+    render() {
+        return (
+            <div className="TimeMachineGallery">
+                <DateInput onDateChange={this.handleDateChange} />
+                <ImageDisplay imageUrl={this.state.images[this.state.currentIndex]} />
+            </div>
+        );
+    }
+    
+}
