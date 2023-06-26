@@ -1,8 +1,14 @@
-import React from 'react';
+import './ImageDisplay.css';
+import './ImageDisplay.css';
+
+import './ImageDisplay.css';
+import './ImageDisplay.css';
+    import './ImageDisplay.css';
+    import React from 'react';
 
 const ImageDisplay = () => {
     return (
-        <div>
+        <div className="ImageDisplay">
             {/* TODO: Implement ImageDisplay */}
         </div>
     );

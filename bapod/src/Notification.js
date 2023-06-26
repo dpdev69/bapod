@@ -1,8 +1,14 @@
-import React from 'react';
+import './Notification.css';
+import './Notification.css';
+
+import './Notification.css';
+import './Notification.css';
+    import './Notification.css';
+    import React from 'react';
 
 const Notification = () => {
     return (
-        <div>
+        <div className="Notification">
             {/* TODO: Implement Notification */}
         </div>
     );

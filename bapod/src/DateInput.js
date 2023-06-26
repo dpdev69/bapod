@@ -1,8 +1,14 @@
-import React from 'react';
+import './DateInput.css';
+import './DateInput.css';
+
+import './DateInput.css';
+import './DateInput.css';
+    import './DateInput.css';
+    import React from 'react';
 
 const DateInput = () => {
     return (
-        <div>
+        <div className="DateInput">
             {/* TODO: Implement DateInput */}
         </div>
     );

@@ -1,8 +1,18 @@
-import React from 'react';
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+import './TimeMachineGallery.css';
+    import './TimeMachineGallery.css';
+    import React from 'react';
 
 const TimeMachineGallery = () => {
     return (
-        <div>
+        <div className="TimeMachineGallery">
             {/* TODO: Implement TimeMachineGallery */}
         </div>
     );
